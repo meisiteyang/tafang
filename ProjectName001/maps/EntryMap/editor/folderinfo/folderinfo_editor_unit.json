@@ -1,0 +1,110 @@
+{
+ "f": [
+  {
+   "__tuple__": true, 
+   "items": [
+    "", 
+    0, 
+    2147483647, 
+    "code_explorer_custom_root_folder_name"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    0, 
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    "\u65b0\u5efa\u6587\u4ef6\u5939"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    1, 
+    "-zBs7rVuEfGHpEvy4vfeJn", 
+    "\u602a"
+   ]
+  }
+ ], 
+ "d": {
+  "134260617": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    0
+   ]
+  }, 
+  "134254101": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    1
+   ]
+  }, 
+  "134244535": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    2
+   ]
+  }, 
+  "134219220": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    3
+   ]
+  }, 
+  "134238278": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    4
+   ]
+  }, 
+  "134251314": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    5
+   ]
+  }, 
+  "134270261": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    6
+   ]
+  }, 
+  "134229931": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    7
+   ]
+  }, 
+  "134232663": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    8
+   ]
+  }, 
+  "134220348": {
+   "__tuple__": true, 
+   "items": [
+    "Cv2oAbVvEfGH7Uvy4vfeJo", 
+    9
+   ]
+  }, 
+  "134225472": {
+   "__tuple__": true, 
+   "items": [
+    "-zBs7rVuEfGHpEvy4vfeJn", 
+    0
+   ]
+  }
+ }
+}

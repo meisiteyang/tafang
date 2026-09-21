@@ -1,0 +1,7 @@
+{
+    "New trigger.json": 0, 
+    "UI.folder": 1, 
+    "关卡选择.folder": 4, 
+    "建造技能.folder": 2, 
+    "触发器.folder": 3
+}

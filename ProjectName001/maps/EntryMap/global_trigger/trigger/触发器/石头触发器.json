@@ -1,0 +1,154 @@
+{
+    "action": [
+        {
+            "action_type": "ROLE_CHANGE_RES", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "玩家"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }, 
+                {
+                    "arg_type": 100037, 
+                    "args_list": [
+                        "dXdc9LVnEfGxsUvy4vfeJg"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        5.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1232973880000007, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_HARM_TEXT_NEW", 
+            "args_list": [
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100240, 
+                                            "args_list": [
+                                                "单位"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_CUS_EVENT_PARAM"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                180.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                100.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                }, 
+                {
+                    "arg_type": 100259, 
+                    "args_list": [
+                        "get_gold"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "+5"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100027, 
+                    "args_list": [
+                        {
+                            "arg_type": 100020, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "TEAM_PLAYER"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1232973880000113, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100333, 
+                    "args_list": [
+                        934269508
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1213341440
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1232973880000001, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "2Dt6b7VdEfGB8Uvy4vfeJl", 
+    "p_trigger_id": null, 
+    "trigger_id": 1768988729, 
+    "trigger_name": "石头触发器", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

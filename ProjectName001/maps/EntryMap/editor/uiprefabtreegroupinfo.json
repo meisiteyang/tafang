@@ -1,0 +1,27 @@
+[
+ {
+  "name": "code_ui_custom_panel_tree", 
+  "key": 2147483647, 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "7df3d99d-6a4c-47ea-8e9e-415864025f95", 
+     "hero"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "c5e5468b-44d4-437e-afcc-737548bcef6e", 
+     "\u5173\u5361\u5143\u4ef6"
+    ]
+   }
+  ]
+ }, 
+ {
+  "name": "code_ui_preset_panel_tree", 
+  "key": 2147483646, 
+  "group": []
+ }
+]

@@ -1,0 +1,6 @@
+{
+    "ui.folder": 0, 
+    "关卡.folder": 2, 
+    "工具.folder": 1, 
+    "玩家.folder": 3
+}

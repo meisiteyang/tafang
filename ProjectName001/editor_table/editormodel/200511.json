@@ -1,0 +1,40 @@
+{
+    "describe": -1671383594, 
+    "editor_res": false, 
+    "key": 200511, 
+    "map_name": "M4scene", 
+    "model_id": 200002, 
+    "name": -805249136, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Cartoon", 
+            "code_European", 
+            "code_Magical", 
+            "code_Buildings", 
+            "code_Whole buildings", 
+            "code_Grey", 
+            "code_Stone", 
+            "code_Camp", 
+            "code_RTS"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/200511", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "code_model_Scene,code_Building,code_Building whole", 
+    "rigidbody_offset": [
+        0.0, 
+        2.5458000000000003, 
+        0.0
+    ], 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_200511", 
+    "unit_prefab": 0
+}

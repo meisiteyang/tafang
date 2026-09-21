@@ -1,0 +1,26 @@
+{
+    "describe": 796171430, 
+    "editor_res": false, 
+    "key": 208338, 
+    "map_name": "dm6", 
+    "model_id": 540172, 
+    "name": 1503093140, 
+    "preview_icon": "UP1ModelPreview/208338", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "\u5723\u5251\u9152\u9986,\u5175\u79cd", 
+    "rigidbody_offset": [
+        0.0, 
+        2.1548, 
+        0.0
+    ], 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_208338", 
+    "unit_prefab": 0
+}

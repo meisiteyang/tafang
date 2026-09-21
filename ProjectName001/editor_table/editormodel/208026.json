@@ -1,0 +1,40 @@
+{
+    "describe": 2077923228, 
+    "editor_res": false, 
+    "key": 208026, 
+    "map_name": "dm2\u573a\u666f", 
+    "model_id": 555887, 
+    "name": -1712832027, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "\u5361\u901a", 
+            "\u73b0\u4ee3", 
+            "\u90fd\u5e02", 
+            "\u573a\u666f", 
+            "\u5efa\u7b51", 
+            "\u5efa\u7b51\u6574\u4f53", 
+            "\u7c89\u8272", 
+            "\u91d1\u5c5e", 
+            "\u5546\u5e97"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/208026", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "code_model_Scene,code_Building,code_Building whole", 
+    "rigidbody_offset": [
+        0.0, 
+        2.029, 
+        0.0
+    ], 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_208026", 
+    "unit_prefab": 0
+}

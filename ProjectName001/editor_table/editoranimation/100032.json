@@ -1,0 +1,30 @@
+{
+    "anim_name": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "ability_30001_1", 
+                "\u5973\u5251\u58eb_ability_10001_1_track", 
+                1765
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "attack2", 
+                "\u5973\u5251\u58eb_ability_10001_1_track_1", 
+                799
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "bound", 
+                "\u5973\u5251\u58eb_ability_10001_1_track_2", 
+                3332
+            ]
+        }
+    ], 
+    "model_id": 100032, 
+    "name": "\u5973\u5251\u58eb"
+}
