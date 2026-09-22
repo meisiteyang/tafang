@@ -1,5 +1,10 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "1149390849": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "1149390849": {
             "action": [
@@ -71,7 +76,20 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }
+                    ], 
+                    "condition_type": "IS_UNIT_ALIVE", 
+                    "element_id": 2082885633000156, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 {

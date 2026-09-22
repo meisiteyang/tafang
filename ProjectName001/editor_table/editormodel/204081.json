@@ -1,25 +1,25 @@
 {
-    "describe": -319162637, 
+    "describe": 199792401, 
     "editor_res": false, 
-    "key": 206107, 
-    "map_name": "H70jianan", 
-    "model_id": 506940, 
-    "name": -1753530256, 
+    "key": 204081, 
+    "map_name": "X1t4", 
+    "model_id": 503703, 
+    "name": 1077603810, 
     "offical_tags": {
         "__tuple__": true, 
         "items": [
-            "code_Cartoon", 
-            "code_European", 
-            "code_Magical", 
+            "code_Realistic", 
+            "code_Chinese style", 
+            "code_Three Kingdoms", 
             "code_Buildings", 
             "code_Whole buildings", 
             "code_Stone", 
-            "code_Green", 
-            "code_Stone house", 
-            "P7(\u672b\u4e16\u751f\u5b58\u7cfb\u5217)"
+            "code_Red", 
+            "code_Defense tower", 
+            "P3(\u4e09\u56fd\u7cfb\u5217)"
         ]
     }, 
-    "preview_icon": "UP1ModelPreview/206107", 
+    "preview_icon": "UP1ModelPreview/204081", 
     "release_delete": {
         "__tuple__": true, 
         "items": []
@@ -28,14 +28,13 @@
     "res_type": "code_model_Scene,code_Building,code_Building whole", 
     "rigidbody_offset": [
         0.0, 
-        1.4244999999999999, 
+        1.5686000000000002, 
         0.0
     ], 
-    "rigidbody_type": 3, 
     "select_effect_scale": 1.0, 
     "size": 1.0, 
     "socket_info": {}, 
     "source": "code_Source_Import", 
-    "uid": "editor_model_206107", 
+    "uid": "editor_model_204081", 
     "unit_prefab": 0
 }
