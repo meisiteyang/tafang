@@ -1,6 +1,6 @@
 {
     "_custom_": true, 
-    "_ref_": 134251314, 
+    "_ref_": 134244151, 
     "affect_techs": {
         "__tuple__": true, 
         "items": []
@@ -22,30 +22,33 @@
     "attack_speed": 85.0, 
     "attack_speed_grow": 0.0, 
     "attack_type": 10000, 
-    "bar_show_name": 1, 
+    "bar_show_name": 0, 
     "bar_show_scale": true, 
     "bar_slot_size": 0, 
     "base_color_mod": 1, 
-    "base_tint_color": [
-        254, 
-        247, 
-        17, 
-        0.5
-    ], 
+    "base_tint_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_offset": {
         "__tuple__": true, 
         "items": [
-            0, 
-            0, 
-            0
+            0.0, 
+            2.0, 
+            0.0
         ]
     }, 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
-    "blood_bar": 327683, 
+    "blood_bar": 65537, 
     "blood_show_type": 0, 
-    "body_size": 0.25, 
+    "body_size": 0.5, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -101,7 +104,7 @@
     "defense_mag_grow": 0.0, 
     "defense_phy": 40.0, 
     "defense_phy_grow": 0.0, 
-    "description": -1131802746, 
+    "description": -388970602, 
     "destroy_after_die": true, 
     "die_anim": "die", 
     "disk_shadow_size": 0, 
@@ -140,6 +143,7 @@
     "heal_effect_grow": 0.0, 
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
+    "height_num": 16, 
     "height_offset": 0, 
     "hero_ability_list": {
         "__tuple__": true, 
@@ -164,11 +168,11 @@
     "is_open_disk_shadow": false, 
     "is_open_outline_pass": false, 
     "is_shop": false, 
-    "is_x_offset": true, 
-    "is_z_offset": true, 
+    "is_x_offset": false, 
+    "is_z_offset": false, 
     "keep_dead_body_time": 2.0, 
     "keep_target": true, 
-    "key": 134251314, 
+    "key": 134244151, 
     "kv": {}, 
     "level": 1, 
     "main_attr": "strength", 
@@ -177,7 +181,7 @@
     "merge_hit_duration": 0, 
     "mini_map_icon": 903954, 
     "mini_map_icon_scale": 1.0, 
-    "model": 200523, 
+    "model": 207085, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -189,7 +193,7 @@
     "mp_max_grow": 0.0, 
     "mp_rec": 10, 
     "mp_rec_grow": 2, 
-    "name": -578778286, 
+    "name": 305651707, 
     "need_preview_billboard": true, 
     "ori_bits": 88, 
     "ori_speed": 0.0, 
@@ -226,13 +230,10 @@
     }, 
     "pkg_slot_size": 0, 
     "poolable": false, 
-    "precondition_list": [
-        [
-            134219220, 
-            0, 
-            1
-        ]
-    ], 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "preview_billboard_health_value": 3500.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": false, 
@@ -350,9 +351,9 @@
     }, 
     "tower_hatred_duration": 3, 
     "type": 2, 
-    "uid": "134251314", 
-    "use_base_tint_color": true, 
-    "use_fresnel": true, 
+    "uid": "134244151", 
+    "use_base_tint_color": false, 
+    "use_fresnel": false, 
     "use_simple_mini_map_icon": false, 
     "use_virtual_light": false, 
     "vampire_mag": 0.0, 
@@ -375,6 +376,7 @@
     "vision_true": 0.0, 
     "vision_true_grow": 0, 
     "walk_anim": "walk", 
+    "width_num": 16, 
     "width_offset": 0, 
     "y3_extra_info_show_type": 1
 }

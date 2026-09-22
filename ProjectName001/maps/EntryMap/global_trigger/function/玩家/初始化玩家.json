@@ -135,6 +135,32 @@
                                             "bp": false, 
                                             "element_id": 395903036000001, 
                                             "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "PLAYER_ADD_TO_GROUP", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "PICKED_PLAYER"
+                                                }, 
+                                                {
+                                                    "arg_type": 100027, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "PLAYER_GROUP", 
+                                                                "全体玩家组"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 14
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 395903036000067, 
+                                            "enable": true
                                         }
                                     ], 
                                     "sub_type": 1

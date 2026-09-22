@@ -1,0 +1,287 @@
+{
+    "local_variable": {
+        "1959067649": {
+            "variable_dict": {
+                "ABILITY": {
+                    "\u6280\u80fd\u4f4d\u7f6e": null
+                }, 
+                "ABILITY_NAME": {
+                    "\u6280\u80fd": 0
+                }, 
+                "FLOAT": {
+                    "\u89d2\u5ea6": 0.0
+                }, 
+                "INTEGER": {
+                    "id": 0
+                }, 
+                "MODEL": {
+                    "\u6a21\u578b": 0
+                }, 
+                "STRING": {
+                    "\u6280\u80fd\u540d\u79f0": ""
+                }, 
+                "UNIT_NAME": {
+                    "\u5355\u4f4d\u7c7b\u578b": 0, 
+                    "\u5efa\u9020\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "id": 0, 
+                "\u5355\u4f4d\u7c7b\u578b": 0, 
+                "\u5efa\u9020\u5355\u4f4d": 0, 
+                "\u6280\u80fd": 0, 
+                "\u6280\u80fd\u4f4d\u7f6e": 0, 
+                "\u6280\u80fd\u540d\u79f0": 0, 
+                "\u6a21\u578b": 0, 
+                "\u89d2\u5ea6": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1959067649": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6a21\u578bid"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1959067649000178, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "\u5355\u4f4d\u7c7b\u578b", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "c6ef4628-20c0-4d89-9b51-ab0f0a47fd63"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "id", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6a21\u578b\u914d\u7f6e"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UNIT_NAME_TABLE_VAR_ND"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 501043255000111, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "MODEL", 
+                                    "\u6a21\u578b", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100116, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_NAME", 
+                                                "\u5355\u4f4d\u7c7b\u578b", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "sub_type": "GET_UNIT_TYPE_MODEL"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1959067649000136, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "REPLACE_UNIT_MODEL", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                [
+                                    "MODEL", 
+                                    "\u6a21\u578b", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 4
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1959067649000196, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1959067649000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134281139, 
+            "p_trigger_id": null, 
+            "trigger_id": 1959067649, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "ABILITY": {
+                        "\u6280\u80fd\u4f4d\u7f6e": null
+                    }, 
+                    "ABILITY_NAME": {
+                        "\u6280\u80fd": 0
+                    }, 
+                    "FLOAT": {
+                        "\u89d2\u5ea6": 0.0
+                    }, 
+                    "INTEGER": {
+                        "id": 0
+                    }, 
+                    "MODEL": {
+                        "\u6a21\u578b": 0
+                    }, 
+                    "STRING": {
+                        "\u6280\u80fd\u540d\u79f0": ""
+                    }, 
+                    "UNIT_NAME": {
+                        "\u5355\u4f4d\u7c7b\u578b": 0, 
+                        "\u5efa\u9020\u5355\u4f4d": 0
+                    }
+                }, 
+                {
+                    "id": 0, 
+                    "\u5355\u4f4d\u7c7b\u578b": 0, 
+                    "\u5efa\u9020\u5355\u4f4d": 0, 
+                    "\u6280\u80fd": 0, 
+                    "\u6280\u80fd\u4f4d\u7f6e": 0, 
+                    "\u6280\u80fd\u540d\u79f0": 0, 
+                    "\u6a21\u578b": 0, 
+                    "\u89d2\u5ea6": 0
+                }, 
+                [
+                    "\u6280\u80fd\u540d\u79f0", 
+                    "\u6280\u80fd\u4f4d\u7f6e", 
+                    "\u5efa\u9020\u5355\u4f4d", 
+                    "\u89d2\u5ea6", 
+                    "\u6280\u80fd", 
+                    "\u6a21\u578b", 
+                    "\u5355\u4f4d\u7c7b\u578b", 
+                    "id"
+                ]
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1959067649, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668"
+                    ]
+                }
+            ], 
+            "key": 134281139, 
+            "name": "134281139"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}
